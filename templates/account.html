@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>My Account</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         body {
             font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
@@ -29,7 +28,7 @@
             margin: 100px auto;
             background: rgba(255, 255, 255, 0.85);
             backdrop-filter: blur(5px);
-            padding: 30px;
+            padding: 40px 35px;
             border-radius: 18px;
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
             border: 1px solid rgba(255, 255, 255, 0.2);
@@ -41,7 +40,7 @@
             letter-spacing: 1px;
             text-align: center;
             font-size: 28px;
-            border-bottom: 2px solid #3498db;
+            border-bottom: 1px solid #3498db;
             padding-bottom: 10px;
         }
         .info-item {
@@ -51,7 +50,7 @@
             display: flex;
             align-items: center;
             gap: 12px;
-            padding: 12px 15px;
+            padding: 15px 18px;
             background: rgba(255, 255, 255, 0.7);
             border-radius: 8px;
             transition: all 0.3s ease;
@@ -73,7 +72,7 @@
         .back-btn {
             display: inline-block;
             margin-top: 30px;
-            padding: 12px 28px;
+            padding: 10px 20px;
             background: linear-gradient(135deg, #3498db 0%, #2c3e50 100%);
             color: white;
             text-decoration: none;
@@ -83,7 +82,7 @@
             box-shadow: 0 4px 15px rgba(41, 128, 185, 0.3);
             border: none;
             cursor: pointer;
-            width: 100%;
+            width: 89%;
             text-align: center;
         }
         .back-btn:hover {
@@ -91,40 +90,29 @@
             transform: translateY(-2px);
             box-shadow: 0 6px 20px rgba(41, 128, 185, 0.4);
         }
-        .back-btn i {
-            margin-right: 8px;
-        }
-        .icon {
-            color: #3498db;
-            width: 25px;
-            text-align: center;
-        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h2><i class="fa fa-user-circle icon"></i> User Account Details</h2>
+        <h2>User Account Details</h2>
         
         <div class="info-item">
-            <span class="icon"><i class="fa fa-user"></i></span>
             <span class="label">Full Name:</span>
             <span class="value">{{ user.name }}</span>
         </div>
         
         <div class="info-item">
-            <span class="icon"><i class="fa fa-envelope"></i></span>
             <span class="label">Email:</span>
             <span class="value">{{ user.email }}</span>
         </div>
         
         <div class="info-item">
-            <span class="icon"><i class="fa fa-calendar-alt"></i></span>
             <span class="label">Account Created:</span>
             <span class="value">{{ user.created_at.strftime('%Y-%m-%d %H:%M:%S') }}</span>
         </div>
         
         <a href="/dashboard" class="back-btn">
-            <i class="fa fa-arrow-left"></i> Back to Dashboard
+            Back to Dashboard
         </a>
     </div>
 </body>

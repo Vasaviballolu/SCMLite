@@ -1892,3 +1892,905 @@
 2025-06-25 14:43:10,565 - app - INFO - Admin dashboard requested by vaishu@gmail.com.
 2025-06-25 14:43:17,115 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODQzMzkwfQ.Z0w_GTJdBF7YazaZRMF4nXdYNNYsROcz3KTk0nJk_Tg
 2025-06-25 14:43:17,162 - app - INFO - Edit shipment page requested by vaishu@gmail.com.
+2025-06-25 15:01:03,784 - app - INFO - Logger initialized.
+2025-06-25 15:01:03,786 - app - INFO - .env file loaded: True
+2025-06-25 15:01:03,786 - app - DEBUG - DEBUG: Raw value from os.getenv('ACCESS_TOKEN_EXPIRE_MINUTES'): '10'
+2025-06-25 15:01:03,786 - app - INFO - Creating FastAPI app
+2025-06-25 15:01:03,787 - app - INFO - SessionMiddleware added.
+2025-06-25 15:01:03,791 - app - INFO - Logger initialized.
+2025-06-25 15:01:03,794 - app - INFO - .env file loaded: True
+2025-06-25 15:01:03,794 - app - DEBUG - DEBUG: Raw value from os.getenv('ACCESS_TOKEN_EXPIRE_MINUTES'): '10'
+2025-06-25 15:01:03,795 - app - INFO - Creating FastAPI app
+2025-06-25 15:01:03,796 - app - INFO - SessionMiddleware added.
+2025-06-25 15:01:03,805 - app - INFO - Logger initialized.
+2025-06-25 15:01:03,807 - app - INFO - .env file loaded: True
+2025-06-25 15:01:03,807 - app - DEBUG - DEBUG: Raw value from os.getenv('ACCESS_TOKEN_EXPIRE_MINUTES'): '10'
+2025-06-25 15:01:03,808 - app - INFO - Creating FastAPI app
+2025-06-25 15:01:03,809 - app - INFO - SessionMiddleware added.
+2025-06-25 15:01:04,336 - app - INFO - MongoDB connection established and collections initialized.
+2025-06-25 15:01:04,520 - app - INFO - MongoDB connection established and collections initialized.
+2025-06-25 15:01:04,530 - app - INFO - MongoDB connection established and collections initialized.
+2025-06-25 18:59:42,351 - app - INFO - Logger initialized.
+2025-06-25 18:59:42,355 - app - INFO - .env file loaded: True
+2025-06-25 18:59:42,356 - app - DEBUG - DEBUG: Raw value from os.getenv('ACCESS_TOKEN_EXPIRE_MINUTES'): '10'
+2025-06-25 18:59:42,356 - app - INFO - Creating FastAPI app
+2025-06-25 18:59:42,357 - app - INFO - SessionMiddleware added.
+2025-06-25 18:59:42,576 - app - INFO - MongoDB connection established and collections initialized.
+2025-06-25 18:59:57,085 - app - INFO - Root endpoint accessed, redirecting to /login.
+2025-06-25 18:59:57,116 - app - INFO - Login page requested.
+2025-06-25 18:59:57,263 - app - ERROR - HTTP Exception caught: 404 - Not Found
+2025-06-25 18:59:58,218 - app - ERROR - HTTP Exception caught: 404 - Not Found
+2025-06-25 19:00:04,355 - app - INFO - Login attempt for username: vaishu@gmail.com
+2025-06-25 19:00:05,205 - app - INFO - Login successful for vaishu@gmail.com with role admin.
+2025-06-25 19:00:05,218 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:00:05,271 - app - INFO - Admin dashboard requested by vaishu@gmail.com.
+2025-06-25 19:00:07,723 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:00:07,789 - app - INFO - Edit shipment page requested by vaishu@gmail.com.
+2025-06-25 19:00:14,919 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:00:15,091 - app - INFO - Create shipment page requested by vaishu@gmail.com.
+2025-06-25 19:01:37,674 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:01:37,735 - app - INFO - Shipment creation submitted by vaishu@gmail.com for shipment ID: SH1567.
+2025-06-25 19:01:37,871 - app - INFO - Shipment SH1567 created successfully.
+2025-06-25 19:01:37,880 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:01:37,937 - app - INFO - Create shipment page requested by vaishu@gmail.com.
+2025-06-25 19:01:41,641 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:01:41,946 - app - INFO - Admin dashboard requested by vaishu@gmail.com.
+2025-06-25 19:01:44,003 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:01:44,250 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-25 19:01:44,495 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-25 19:01:48,184 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:01:48,237 - app - INFO - Edit shipment page requested by vaishu@gmail.com.
+2025-06-25 19:01:50,302 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:01:50,616 - app - INFO - Edit shipment page requested by vaishu@gmail.com.
+2025-06-25 19:01:54,627 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:01:54,678 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-25 19:01:54,783 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-25 19:01:58,509 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:01:59,100 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-25 19:01:59,768 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-25 19:02:04,244 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:02:04,632 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-25 19:02:05,042 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-25 19:02:20,095 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:02:20,291 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-25 19:02:21,015 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-25 19:02:36,058 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:02:36,137 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-25 19:02:36,684 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-25 19:02:51,733 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:02:52,040 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-25 19:02:52,663 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-25 19:03:07,765 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:03:07,817 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-25 19:03:07,918 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-25 19:03:22,977 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:03:23,293 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-25 19:03:23,398 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-25 19:03:38,457 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:03:38,532 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-25 19:03:39,202 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-25 19:03:54,259 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:03:54,313 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-25 19:03:54,412 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-25 19:04:09,460 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:04:09,534 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-25 19:04:09,718 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-25 19:04:24,768 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:04:24,820 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-25 19:04:24,928 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-25 19:04:39,998 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:04:40,048 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-25 19:04:40,149 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-25 19:04:55,208 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:04:55,260 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-25 19:04:55,364 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-25 19:05:10,410 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:05:10,713 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-25 19:05:11,514 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-25 19:05:26,567 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:05:26,728 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-25 19:05:27,186 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-25 19:05:42,232 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:05:42,284 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-25 19:05:42,383 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-25 19:05:57,429 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:05:57,481 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-25 19:05:57,607 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-25 19:06:12,654 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:06:12,707 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-25 19:06:12,813 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-25 19:06:27,871 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:06:28,191 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-25 19:06:28,583 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-25 19:06:43,636 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:06:43,883 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-25 19:06:44,288 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-25 19:06:59,340 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:06:59,429 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-25 19:06:59,648 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-25 19:07:14,692 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:07:14,760 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-25 19:07:14,860 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-25 19:07:29,902 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:07:29,962 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-25 19:07:30,447 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-25 19:07:45,490 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:07:46,064 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-25 19:07:46,167 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-25 19:08:01,224 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:08:01,276 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-25 19:08:01,419 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-25 19:08:16,467 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:08:16,660 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-25 19:08:16,977 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-25 19:08:32,016 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:08:32,071 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-25 19:08:32,177 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-25 19:08:47,231 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:08:47,284 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-25 19:08:47,386 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-25 19:09:02,445 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:09:02,658 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-25 19:09:03,157 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-25 19:09:18,203 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:09:18,331 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-25 19:09:18,926 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-25 19:09:33,967 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:09:34,020 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-25 19:09:34,122 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-25 19:09:49,169 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:09:49,392 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-25 19:09:49,492 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-25 19:10:04,546 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUwODU4ODA1fQ.j3ItPQvKHHlpVgGgPfP2uedh_ZRpdfFaTW8bkLoUcVY
+2025-06-25 19:10:04,607 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-25 19:10:04,714 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-25 19:10:19,761 - app - DEBUG - JWT token from cookie: None
+2025-06-25 19:10:19,762 - app - ERROR - JWT token not found in cookie or header.
+2025-06-25 19:10:19,763 - app - ERROR - HTTP Exception caught: 401 - Not authenticated
+2025-06-27 10:43:34,402 - app - INFO - Logger initialized.
+2025-06-27 10:43:34,417 - app - INFO - .env file loaded: True
+2025-06-27 10:43:34,457 - app - DEBUG - DEBUG: Raw value from os.getenv('ACCESS_TOKEN_EXPIRE_MINUTES'): '10'
+2025-06-27 10:43:34,469 - app - INFO - Creating FastAPI app
+2025-06-27 10:43:34,486 - app - INFO - SessionMiddleware added.
+2025-06-27 10:43:34,966 - app - INFO - MongoDB connection established and collections initialized.
+2025-06-27 10:43:37,352 - app - INFO - Root endpoint accessed, redirecting to /login.
+2025-06-27 10:43:37,506 - app - INFO - Login page requested.
+2025-06-27 10:43:41,163 - app - ERROR - HTTP Exception caught: 404 - Not Found
+2025-06-27 10:43:43,953 - app - ERROR - HTTP Exception caught: 404 - Not Found
+2025-06-27 10:43:46,835 - app - INFO - Root endpoint accessed, redirecting to /login.
+2025-06-27 10:43:46,875 - app - INFO - Login page requested.
+2025-06-27 10:43:47,301 - app - ERROR - HTTP Exception caught: 404 - Not Found
+2025-06-27 10:43:50,915 - app - INFO - Root endpoint accessed, redirecting to /login.
+2025-06-27 10:43:51,002 - app - INFO - Login page requested.
+2025-06-27 10:43:51,422 - app - ERROR - HTTP Exception caught: 404 - Not Found
+2025-06-27 10:45:30,585 - app - INFO - Login attempt for username: vaishu@gmail.com
+2025-06-27 10:45:31,320 - app - INFO - Login successful for vaishu@gmail.com with role admin.
+2025-06-27 10:45:31,327 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDAxOTMxfQ.W-nI6SNBju_5mMf5eZZOR3TIF27FfAw7qQXNoRDhy6E
+2025-06-27 10:45:31,366 - app - INFO - Admin dashboard requested by vaishu@gmail.com.
+2025-06-27 10:45:34,095 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDAxOTMxfQ.W-nI6SNBju_5mMf5eZZOR3TIF27FfAw7qQXNoRDhy6E
+2025-06-27 10:45:34,136 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 10:45:34,218 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 10:45:44,097 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDAxOTMxfQ.W-nI6SNBju_5mMf5eZZOR3TIF27FfAw7qQXNoRDhy6E
+2025-06-27 10:45:44,124 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 10:45:44,180 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 10:46:06,671 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDAxOTMxfQ.W-nI6SNBju_5mMf5eZZOR3TIF27FfAw7qQXNoRDhy6E
+2025-06-27 10:46:06,714 - app - INFO - Edit shipment page requested by vaishu@gmail.com.
+2025-06-27 10:46:11,269 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDAxOTMxfQ.W-nI6SNBju_5mMf5eZZOR3TIF27FfAw7qQXNoRDhy6E
+2025-06-27 10:46:11,315 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 10:46:11,414 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 10:46:53,797 - app - INFO - Login attempt for username: vaishu@gmail.com
+2025-06-27 10:46:54,129 - app - INFO - Login successful for vaishu@gmail.com with role admin.
+2025-06-27 10:46:54,136 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDAyMDE0fQ.ieoOTRg46CjfV3Z2-3UzYjg5EXbVCvjtRzfHds26ks4
+2025-06-27 10:46:54,164 - app - INFO - Admin dashboard requested by vaishu@gmail.com.
+2025-06-27 10:46:56,024 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDAyMDE0fQ.ieoOTRg46CjfV3Z2-3UzYjg5EXbVCvjtRzfHds26ks4
+2025-06-27 10:46:56,069 - app - INFO - User management page requested by vaishu@gmail.com.
+2025-06-27 10:47:04,036 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDAyMDE0fQ.ieoOTRg46CjfV3Z2-3UzYjg5EXbVCvjtRzfHds26ks4
+2025-06-27 10:47:04,112 - app - INFO - Edit shipment page requested by vaishu@gmail.com.
+2025-06-27 10:47:11,270 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDAyMDE0fQ.ieoOTRg46CjfV3Z2-3UzYjg5EXbVCvjtRzfHds26ks4
+2025-06-27 10:47:11,309 - app - INFO - User management page requested by vaishu@gmail.com.
+2025-06-27 10:47:14,621 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDAyMDE0fQ.ieoOTRg46CjfV3Z2-3UzYjg5EXbVCvjtRzfHds26ks4
+2025-06-27 10:47:14,651 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 10:47:14,725 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 10:47:36,739 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDAyMDE0fQ.ieoOTRg46CjfV3Z2-3UzYjg5EXbVCvjtRzfHds26ks4
+2025-06-27 10:47:36,778 - app - INFO - Create shipment page requested by vaishu@gmail.com.
+2025-06-27 10:47:50,928 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDAyMDE0fQ.ieoOTRg46CjfV3Z2-3UzYjg5EXbVCvjtRzfHds26ks4
+2025-06-27 10:47:50,975 - app - INFO - Edit shipment page requested by vaishu@gmail.com.
+2025-06-27 10:47:55,131 - app - INFO - Login page requested.
+2025-06-27 10:47:58,091 - app - INFO - Signup page requested.
+2025-06-27 10:48:01,454 - app - INFO - Login page requested.
+2025-06-27 11:00:23,277 - app - INFO - Logger initialized.
+2025-06-27 11:00:23,280 - app - INFO - .env file loaded: True
+2025-06-27 11:00:23,280 - app - DEBUG - DEBUG: Raw value from os.getenv('ACCESS_TOKEN_EXPIRE_MINUTES'): '10'
+2025-06-27 11:00:23,280 - app - INFO - Creating FastAPI app
+2025-06-27 11:00:23,282 - app - INFO - SessionMiddleware added.
+2025-06-27 11:00:23,518 - app - INFO - MongoDB connection established and collections initialized.
+2025-06-27 11:00:32,370 - app - INFO - Root endpoint accessed, redirecting to /login.
+2025-06-27 11:00:32,381 - app - INFO - Login page requested.
+2025-06-27 11:00:32,508 - app - ERROR - HTTP Exception caught: 404 - Not Found
+2025-06-27 11:00:33,315 - app - ERROR - HTTP Exception caught: 404 - Not Found
+2025-06-27 11:00:42,978 - app - INFO - Login attempt for username: vaishu@gmail.com
+2025-06-27 11:00:43,900 - app - INFO - Login successful for vaishu@gmail.com with role admin.
+2025-06-27 11:00:43,909 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDAyODQzfQ.bGeGwVOtMJHm8--knxeZz8LM6C0jaBrj5fcG3iILE-A
+2025-06-27 11:00:43,974 - app - INFO - Admin dashboard requested by vaishu@gmail.com.
+2025-06-27 11:00:46,408 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDAyODQzfQ.bGeGwVOtMJHm8--knxeZz8LM6C0jaBrj5fcG3iILE-A
+2025-06-27 11:00:46,473 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 11:00:46,634 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 11:01:01,742 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDAyODQzfQ.bGeGwVOtMJHm8--knxeZz8LM6C0jaBrj5fcG3iILE-A
+2025-06-27 11:01:01,840 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 11:01:01,975 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 11:41:20,111 - app - INFO - Logger initialized.
+2025-06-27 11:41:20,113 - app - INFO - .env file loaded: True
+2025-06-27 11:41:20,114 - app - DEBUG - DEBUG: Raw value from os.getenv('ACCESS_TOKEN_EXPIRE_MINUTES'): '10'
+2025-06-27 11:41:20,114 - app - INFO - Creating FastAPI app
+2025-06-27 11:41:20,114 - app - INFO - SessionMiddleware added.
+2025-06-27 11:41:20,288 - app - INFO - MongoDB connection established and collections initialized.
+2025-06-27 11:41:23,314 - app - INFO - Root endpoint accessed, redirecting to /login.
+2025-06-27 11:41:23,321 - app - INFO - Login page requested.
+2025-06-27 11:41:23,431 - app - ERROR - HTTP Exception caught: 404 - Not Found
+2025-06-27 11:41:24,032 - app - ERROR - HTTP Exception caught: 404 - Not Found
+2025-06-27 11:41:36,333 - app - INFO - Login attempt for username: vaishu@gmail.com
+2025-06-27 11:41:37,017 - app - INFO - Login successful for vaishu@gmail.com with role admin.
+2025-06-27 11:41:37,023 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA1Mjk2fQ.-kIYKfrCnxbUtW5joDmxUooh50t3NCZXjLUKDUBAuus
+2025-06-27 11:41:37,070 - app - INFO - Admin dashboard requested by vaishu@gmail.com.
+2025-06-27 11:41:41,733 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA1Mjk2fQ.-kIYKfrCnxbUtW5joDmxUooh50t3NCZXjLUKDUBAuus
+2025-06-27 11:41:41,784 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 11:41:41,882 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 11:41:56,959 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA1Mjk2fQ.-kIYKfrCnxbUtW5joDmxUooh50t3NCZXjLUKDUBAuus
+2025-06-27 11:41:57,016 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 11:41:57,113 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 11:42:12,153 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA1Mjk2fQ.-kIYKfrCnxbUtW5joDmxUooh50t3NCZXjLUKDUBAuus
+2025-06-27 11:42:12,203 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 11:42:12,302 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 11:42:27,341 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA1Mjk2fQ.-kIYKfrCnxbUtW5joDmxUooh50t3NCZXjLUKDUBAuus
+2025-06-27 11:42:27,390 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 11:42:27,487 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 11:42:42,529 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA1Mjk2fQ.-kIYKfrCnxbUtW5joDmxUooh50t3NCZXjLUKDUBAuus
+2025-06-27 11:42:42,578 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 11:42:42,679 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 11:42:57,716 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA1Mjk2fQ.-kIYKfrCnxbUtW5joDmxUooh50t3NCZXjLUKDUBAuus
+2025-06-27 11:42:57,769 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 11:42:57,864 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 11:43:12,903 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA1Mjk2fQ.-kIYKfrCnxbUtW5joDmxUooh50t3NCZXjLUKDUBAuus
+2025-06-27 11:43:12,967 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 11:43:13,068 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 11:43:28,114 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA1Mjk2fQ.-kIYKfrCnxbUtW5joDmxUooh50t3NCZXjLUKDUBAuus
+2025-06-27 11:43:28,164 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 11:43:28,262 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 11:43:43,311 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA1Mjk2fQ.-kIYKfrCnxbUtW5joDmxUooh50t3NCZXjLUKDUBAuus
+2025-06-27 11:43:43,360 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 11:43:43,457 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 11:43:58,499 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA1Mjk2fQ.-kIYKfrCnxbUtW5joDmxUooh50t3NCZXjLUKDUBAuus
+2025-06-27 11:43:58,548 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 11:43:58,638 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 11:44:13,672 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA1Mjk2fQ.-kIYKfrCnxbUtW5joDmxUooh50t3NCZXjLUKDUBAuus
+2025-06-27 11:44:13,726 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 11:44:13,824 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 11:44:28,857 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA1Mjk2fQ.-kIYKfrCnxbUtW5joDmxUooh50t3NCZXjLUKDUBAuus
+2025-06-27 11:44:28,909 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 11:44:29,009 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 11:44:44,055 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA1Mjk2fQ.-kIYKfrCnxbUtW5joDmxUooh50t3NCZXjLUKDUBAuus
+2025-06-27 11:44:44,105 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 11:44:44,204 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 11:44:59,242 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA1Mjk2fQ.-kIYKfrCnxbUtW5joDmxUooh50t3NCZXjLUKDUBAuus
+2025-06-27 11:44:59,294 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 11:44:59,393 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 11:45:14,445 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA1Mjk2fQ.-kIYKfrCnxbUtW5joDmxUooh50t3NCZXjLUKDUBAuus
+2025-06-27 11:45:14,499 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 11:45:14,602 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 11:45:29,638 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA1Mjk2fQ.-kIYKfrCnxbUtW5joDmxUooh50t3NCZXjLUKDUBAuus
+2025-06-27 11:45:29,686 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 11:45:29,780 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 11:45:44,817 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA1Mjk2fQ.-kIYKfrCnxbUtW5joDmxUooh50t3NCZXjLUKDUBAuus
+2025-06-27 11:45:44,866 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 11:45:44,963 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 11:46:00,008 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA1Mjk2fQ.-kIYKfrCnxbUtW5joDmxUooh50t3NCZXjLUKDUBAuus
+2025-06-27 11:46:00,055 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 11:46:00,152 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 11:46:15,203 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA1Mjk2fQ.-kIYKfrCnxbUtW5joDmxUooh50t3NCZXjLUKDUBAuus
+2025-06-27 11:46:15,252 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 11:46:15,449 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 11:46:30,492 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA1Mjk2fQ.-kIYKfrCnxbUtW5joDmxUooh50t3NCZXjLUKDUBAuus
+2025-06-27 11:46:30,541 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 11:46:30,636 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 11:46:45,679 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA1Mjk2fQ.-kIYKfrCnxbUtW5joDmxUooh50t3NCZXjLUKDUBAuus
+2025-06-27 11:46:45,727 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 11:46:45,823 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 11:47:00,870 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA1Mjk2fQ.-kIYKfrCnxbUtW5joDmxUooh50t3NCZXjLUKDUBAuus
+2025-06-27 11:47:00,937 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 11:47:01,038 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 11:47:16,072 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA1Mjk2fQ.-kIYKfrCnxbUtW5joDmxUooh50t3NCZXjLUKDUBAuus
+2025-06-27 11:47:16,121 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 11:47:16,221 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 11:47:31,264 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA1Mjk2fQ.-kIYKfrCnxbUtW5joDmxUooh50t3NCZXjLUKDUBAuus
+2025-06-27 11:47:31,316 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 11:47:31,412 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:07:29,277 - app - INFO - Logger initialized.
+2025-06-27 12:07:29,278 - app - INFO - .env file loaded: True
+2025-06-27 12:07:29,279 - app - DEBUG - DEBUG: Raw value from os.getenv('ACCESS_TOKEN_EXPIRE_MINUTES'): '10'
+2025-06-27 12:07:29,279 - app - INFO - Creating FastAPI app
+2025-06-27 12:07:29,280 - app - INFO - SessionMiddleware added.
+2025-06-27 12:07:29,437 - app - INFO - MongoDB connection established and collections initialized.
+2025-06-27 12:07:37,818 - app - INFO - Root endpoint accessed, redirecting to /login.
+2025-06-27 12:07:37,830 - app - INFO - Login page requested.
+2025-06-27 12:07:37,916 - app - ERROR - HTTP Exception caught: 404 - Not Found
+2025-06-27 12:07:42,016 - app - INFO - Login attempt for username: vaishu@gmail.com
+2025-06-27 12:07:44,905 - app - INFO - Login successful for vaishu@gmail.com with role admin.
+2025-06-27 12:07:44,911 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA2ODY0fQ.jMIcUDGRMooqMCbsPKce2WeFqZ6NpPMikngBzTNgag0
+2025-06-27 12:07:44,955 - app - INFO - Admin dashboard requested by vaishu@gmail.com.
+2025-06-27 12:07:45,034 - app - ERROR - HTTP Exception caught: 404 - Not Found
+2025-06-27 12:07:46,950 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA2ODY0fQ.jMIcUDGRMooqMCbsPKce2WeFqZ6NpPMikngBzTNgag0
+2025-06-27 12:07:46,995 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:07:47,096 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:08:02,190 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA2ODY0fQ.jMIcUDGRMooqMCbsPKce2WeFqZ6NpPMikngBzTNgag0
+2025-06-27 12:08:02,228 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:08:02,298 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:08:17,344 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA2ODY0fQ.jMIcUDGRMooqMCbsPKce2WeFqZ6NpPMikngBzTNgag0
+2025-06-27 12:08:17,423 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:08:17,490 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:08:32,535 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA2ODY0fQ.jMIcUDGRMooqMCbsPKce2WeFqZ6NpPMikngBzTNgag0
+2025-06-27 12:08:32,570 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:08:32,651 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:08:47,692 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA2ODY0fQ.jMIcUDGRMooqMCbsPKce2WeFqZ6NpPMikngBzTNgag0
+2025-06-27 12:08:47,727 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:08:47,795 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:08:51,264 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA2ODY0fQ.jMIcUDGRMooqMCbsPKce2WeFqZ6NpPMikngBzTNgag0
+2025-06-27 12:08:51,303 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:08:51,386 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:09:06,434 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA2ODY0fQ.jMIcUDGRMooqMCbsPKce2WeFqZ6NpPMikngBzTNgag0
+2025-06-27 12:09:06,478 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:09:06,546 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:09:21,603 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA2ODY0fQ.jMIcUDGRMooqMCbsPKce2WeFqZ6NpPMikngBzTNgag0
+2025-06-27 12:09:21,642 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:09:21,709 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:09:36,762 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA2ODY0fQ.jMIcUDGRMooqMCbsPKce2WeFqZ6NpPMikngBzTNgag0
+2025-06-27 12:09:36,799 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:09:36,873 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:09:51,921 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA2ODY0fQ.jMIcUDGRMooqMCbsPKce2WeFqZ6NpPMikngBzTNgag0
+2025-06-27 12:09:51,957 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:09:52,024 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:10:07,083 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA2ODY0fQ.jMIcUDGRMooqMCbsPKce2WeFqZ6NpPMikngBzTNgag0
+2025-06-27 12:10:07,116 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:10:07,182 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:10:22,271 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA2ODY0fQ.jMIcUDGRMooqMCbsPKce2WeFqZ6NpPMikngBzTNgag0
+2025-06-27 12:10:22,303 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:10:22,369 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:10:37,429 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA2ODY0fQ.jMIcUDGRMooqMCbsPKce2WeFqZ6NpPMikngBzTNgag0
+2025-06-27 12:10:37,464 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:10:37,533 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:10:52,578 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA2ODY0fQ.jMIcUDGRMooqMCbsPKce2WeFqZ6NpPMikngBzTNgag0
+2025-06-27 12:10:52,614 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:10:52,687 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:11:07,740 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA2ODY0fQ.jMIcUDGRMooqMCbsPKce2WeFqZ6NpPMikngBzTNgag0
+2025-06-27 12:11:07,772 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:11:07,831 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:11:22,887 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA2ODY0fQ.jMIcUDGRMooqMCbsPKce2WeFqZ6NpPMikngBzTNgag0
+2025-06-27 12:11:22,925 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:11:22,994 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:11:38,053 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA2ODY0fQ.jMIcUDGRMooqMCbsPKce2WeFqZ6NpPMikngBzTNgag0
+2025-06-27 12:11:38,089 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:11:38,162 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:11:53,206 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA2ODY0fQ.jMIcUDGRMooqMCbsPKce2WeFqZ6NpPMikngBzTNgag0
+2025-06-27 12:11:53,251 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:11:53,325 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:12:08,375 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA2ODY0fQ.jMIcUDGRMooqMCbsPKce2WeFqZ6NpPMikngBzTNgag0
+2025-06-27 12:12:08,409 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:12:08,476 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:12:23,529 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA2ODY0fQ.jMIcUDGRMooqMCbsPKce2WeFqZ6NpPMikngBzTNgag0
+2025-06-27 12:12:23,560 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:12:23,623 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:12:38,676 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA2ODY0fQ.jMIcUDGRMooqMCbsPKce2WeFqZ6NpPMikngBzTNgag0
+2025-06-27 12:12:38,711 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:12:38,779 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:12:53,826 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA2ODY0fQ.jMIcUDGRMooqMCbsPKce2WeFqZ6NpPMikngBzTNgag0
+2025-06-27 12:12:53,861 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:12:53,927 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:13:08,974 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA2ODY0fQ.jMIcUDGRMooqMCbsPKce2WeFqZ6NpPMikngBzTNgag0
+2025-06-27 12:13:09,011 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:13:09,079 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:13:24,130 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA2ODY0fQ.jMIcUDGRMooqMCbsPKce2WeFqZ6NpPMikngBzTNgag0
+2025-06-27 12:13:24,163 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:13:24,237 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:13:39,288 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA2ODY0fQ.jMIcUDGRMooqMCbsPKce2WeFqZ6NpPMikngBzTNgag0
+2025-06-27 12:13:39,326 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:13:39,394 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:13:54,444 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA2ODY0fQ.jMIcUDGRMooqMCbsPKce2WeFqZ6NpPMikngBzTNgag0
+2025-06-27 12:13:54,484 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:13:54,554 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:40:09,671 - app - INFO - Logger initialized.
+2025-06-27 12:40:09,673 - app - INFO - .env file loaded: True
+2025-06-27 12:40:09,673 - app - DEBUG - DEBUG: Raw value from os.getenv('ACCESS_TOKEN_EXPIRE_MINUTES'): '10'
+2025-06-27 12:40:09,673 - app - INFO - Creating FastAPI app
+2025-06-27 12:40:09,675 - app - INFO - SessionMiddleware added.
+2025-06-27 12:40:09,893 - app - INFO - MongoDB connection established and collections initialized.
+2025-06-27 12:40:14,384 - app - INFO - Root endpoint accessed, redirecting to /login.
+2025-06-27 12:40:14,400 - app - INFO - Login page requested.
+2025-06-27 12:40:14,549 - app - ERROR - HTTP Exception caught: 404 - Not Found
+2025-06-27 12:40:15,306 - app - ERROR - HTTP Exception caught: 404 - Not Found
+2025-06-27 12:40:18,689 - app - INFO - Login attempt for username: vaishu@gmail.com
+2025-06-27 12:40:19,985 - app - INFO - Login successful for vaishu@gmail.com with role admin.
+2025-06-27 12:40:20,000 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA4ODE5fQ.cePE5VqvpzRJXwz5yzRQmeySL9iv8ljWg7bW0N1sH0A
+2025-06-27 12:40:20,064 - app - INFO - Admin dashboard requested by vaishu@gmail.com.
+2025-06-27 12:40:22,233 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA4ODE5fQ.cePE5VqvpzRJXwz5yzRQmeySL9iv8ljWg7bW0N1sH0A
+2025-06-27 12:40:22,313 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:40:22,464 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:40:29,388 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA4ODE5fQ.cePE5VqvpzRJXwz5yzRQmeySL9iv8ljWg7bW0N1sH0A
+2025-06-27 12:40:29,699 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:40:30,319 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:40:45,392 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA4ODE5fQ.cePE5VqvpzRJXwz5yzRQmeySL9iv8ljWg7bW0N1sH0A
+2025-06-27 12:40:45,665 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:40:45,812 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:41:00,886 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA4ODE5fQ.cePE5VqvpzRJXwz5yzRQmeySL9iv8ljWg7bW0N1sH0A
+2025-06-27 12:41:01,125 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:41:01,965 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:41:17,052 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA4ODE5fQ.cePE5VqvpzRJXwz5yzRQmeySL9iv8ljWg7bW0N1sH0A
+2025-06-27 12:41:17,174 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:41:17,450 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:41:32,524 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA4ODE5fQ.cePE5VqvpzRJXwz5yzRQmeySL9iv8ljWg7bW0N1sH0A
+2025-06-27 12:41:32,914 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:41:33,287 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:41:48,356 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA4ODE5fQ.cePE5VqvpzRJXwz5yzRQmeySL9iv8ljWg7bW0N1sH0A
+2025-06-27 12:41:48,426 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:41:48,668 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:42:03,732 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA4ODE5fQ.cePE5VqvpzRJXwz5yzRQmeySL9iv8ljWg7bW0N1sH0A
+2025-06-27 12:42:03,808 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:42:03,928 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:42:18,993 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA4ODE5fQ.cePE5VqvpzRJXwz5yzRQmeySL9iv8ljWg7bW0N1sH0A
+2025-06-27 12:42:19,255 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:42:19,528 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:42:34,643 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA4ODE5fQ.cePE5VqvpzRJXwz5yzRQmeySL9iv8ljWg7bW0N1sH0A
+2025-06-27 12:42:34,720 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:42:34,852 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:42:49,913 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA4ODE5fQ.cePE5VqvpzRJXwz5yzRQmeySL9iv8ljWg7bW0N1sH0A
+2025-06-27 12:42:49,987 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:42:50,167 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:43:10,168 - app - INFO - Logger initialized.
+2025-06-27 12:43:10,170 - app - INFO - .env file loaded: True
+2025-06-27 12:43:10,171 - app - DEBUG - DEBUG: Raw value from os.getenv('ACCESS_TOKEN_EXPIRE_MINUTES'): '10'
+2025-06-27 12:43:10,171 - app - INFO - Creating FastAPI app
+2025-06-27 12:43:10,172 - app - INFO - SessionMiddleware added.
+2025-06-27 12:43:11,319 - app - INFO - MongoDB connection established and collections initialized.
+2025-06-27 12:43:16,644 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA4ODE5fQ.cePE5VqvpzRJXwz5yzRQmeySL9iv8ljWg7bW0N1sH0A
+2025-06-27 12:43:18,878 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:43:19,415 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:43:19,457 - app - INFO - Root endpoint accessed, redirecting to /login.
+2025-06-27 12:43:19,469 - app - INFO - Login page requested.
+2025-06-27 12:43:19,599 - app - ERROR - HTTP Exception caught: 404 - Not Found
+2025-06-27 12:43:34,695 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA4ODE5fQ.cePE5VqvpzRJXwz5yzRQmeySL9iv8ljWg7bW0N1sH0A
+2025-06-27 12:43:34,821 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:43:34,967 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:43:50,075 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA4ODE5fQ.cePE5VqvpzRJXwz5yzRQmeySL9iv8ljWg7bW0N1sH0A
+2025-06-27 12:43:50,310 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:43:50,750 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:44:05,824 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA4ODE5fQ.cePE5VqvpzRJXwz5yzRQmeySL9iv8ljWg7bW0N1sH0A
+2025-06-27 12:44:05,902 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:44:06,055 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:44:21,131 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA4ODE5fQ.cePE5VqvpzRJXwz5yzRQmeySL9iv8ljWg7bW0N1sH0A
+2025-06-27 12:44:21,220 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:44:21,386 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:44:31,362 - app - INFO - Logger initialized.
+2025-06-27 12:44:31,364 - app - INFO - .env file loaded: True
+2025-06-27 12:44:31,365 - app - DEBUG - DEBUG: Raw value from os.getenv('ACCESS_TOKEN_EXPIRE_MINUTES'): '10'
+2025-06-27 12:44:31,366 - app - INFO - Creating FastAPI app
+2025-06-27 12:44:31,367 - app - INFO - SessionMiddleware added.
+2025-06-27 12:44:31,537 - app - INFO - MongoDB connection established and collections initialized.
+2025-06-27 12:44:36,437 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA4ODE5fQ.cePE5VqvpzRJXwz5yzRQmeySL9iv8ljWg7bW0N1sH0A
+2025-06-27 12:44:37,958 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:44:38,113 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:44:53,182 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA4ODE5fQ.cePE5VqvpzRJXwz5yzRQmeySL9iv8ljWg7bW0N1sH0A
+2025-06-27 12:44:53,311 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:44:53,653 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:45:08,715 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA4ODE5fQ.cePE5VqvpzRJXwz5yzRQmeySL9iv8ljWg7bW0N1sH0A
+2025-06-27 12:45:08,799 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:45:09,126 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:45:24,185 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA4ODE5fQ.cePE5VqvpzRJXwz5yzRQmeySL9iv8ljWg7bW0N1sH0A
+2025-06-27 12:45:24,263 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:45:24,415 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:45:39,488 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA4ODE5fQ.cePE5VqvpzRJXwz5yzRQmeySL9iv8ljWg7bW0N1sH0A
+2025-06-27 12:45:39,569 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:45:39,710 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:45:54,758 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA4ODE5fQ.cePE5VqvpzRJXwz5yzRQmeySL9iv8ljWg7bW0N1sH0A
+2025-06-27 12:45:54,855 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:45:55,370 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:46:10,420 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA4ODE5fQ.cePE5VqvpzRJXwz5yzRQmeySL9iv8ljWg7bW0N1sH0A
+2025-06-27 12:46:10,494 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:46:10,634 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:46:25,693 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA4ODE5fQ.cePE5VqvpzRJXwz5yzRQmeySL9iv8ljWg7bW0N1sH0A
+2025-06-27 12:46:25,806 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:46:26,336 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:46:41,403 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA4ODE5fQ.cePE5VqvpzRJXwz5yzRQmeySL9iv8ljWg7bW0N1sH0A
+2025-06-27 12:46:41,629 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:46:42,378 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:46:57,428 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA4ODE5fQ.cePE5VqvpzRJXwz5yzRQmeySL9iv8ljWg7bW0N1sH0A
+2025-06-27 12:46:57,528 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:46:58,447 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:47:13,498 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA4ODE5fQ.cePE5VqvpzRJXwz5yzRQmeySL9iv8ljWg7bW0N1sH0A
+2025-06-27 12:47:13,831 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:47:14,110 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:51:00,694 - app - INFO - Logger initialized.
+2025-06-27 12:51:00,696 - app - INFO - .env file loaded: True
+2025-06-27 12:51:00,697 - app - DEBUG - DEBUG: Raw value from os.getenv('ACCESS_TOKEN_EXPIRE_MINUTES'): '10'
+2025-06-27 12:51:00,697 - app - INFO - Creating FastAPI app
+2025-06-27 12:51:00,698 - app - INFO - SessionMiddleware added.
+2025-06-27 12:51:00,862 - app - INFO - MongoDB connection established and collections initialized.
+2025-06-27 12:51:15,765 - app - INFO - Root endpoint accessed, redirecting to /login.
+2025-06-27 12:51:15,778 - app - INFO - Login page requested.
+2025-06-27 12:51:15,903 - app - ERROR - HTTP Exception caught: 404 - Not Found
+2025-06-27 12:51:16,401 - app - ERROR - HTTP Exception caught: 404 - Not Found
+2025-06-27 12:51:19,830 - app - INFO - Login attempt for username: vaishu@gmail.com
+2025-06-27 12:51:20,422 - app - INFO - Login successful for vaishu@gmail.com with role admin.
+2025-06-27 12:51:20,431 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA5NDgwfQ.bVuPY_uwZnEAPKNsecmDbFW7cK9_4Vtph2L5ZI4G43k
+2025-06-27 12:51:20,469 - app - INFO - Admin dashboard requested by vaishu@gmail.com.
+2025-06-27 12:51:22,515 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA5NDgwfQ.bVuPY_uwZnEAPKNsecmDbFW7cK9_4Vtph2L5ZI4G43k
+2025-06-27 12:51:22,555 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:51:22,626 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:51:37,727 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA5NDgwfQ.bVuPY_uwZnEAPKNsecmDbFW7cK9_4Vtph2L5ZI4G43k
+2025-06-27 12:51:37,762 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:51:37,828 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:51:52,875 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA5NDgwfQ.bVuPY_uwZnEAPKNsecmDbFW7cK9_4Vtph2L5ZI4G43k
+2025-06-27 12:51:52,911 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:51:52,972 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:52:08,027 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA5NDgwfQ.bVuPY_uwZnEAPKNsecmDbFW7cK9_4Vtph2L5ZI4G43k
+2025-06-27 12:52:08,061 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:52:08,125 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:52:23,165 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA5NDgwfQ.bVuPY_uwZnEAPKNsecmDbFW7cK9_4Vtph2L5ZI4G43k
+2025-06-27 12:52:23,213 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:52:23,289 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:52:38,328 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA5NDgwfQ.bVuPY_uwZnEAPKNsecmDbFW7cK9_4Vtph2L5ZI4G43k
+2025-06-27 12:52:38,361 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:52:38,425 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:52:53,472 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA5NDgwfQ.bVuPY_uwZnEAPKNsecmDbFW7cK9_4Vtph2L5ZI4G43k
+2025-06-27 12:52:53,506 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:52:53,575 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:53:08,627 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA5NDgwfQ.bVuPY_uwZnEAPKNsecmDbFW7cK9_4Vtph2L5ZI4G43k
+2025-06-27 12:53:08,677 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:53:09,116 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:53:24,167 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA5NDgwfQ.bVuPY_uwZnEAPKNsecmDbFW7cK9_4Vtph2L5ZI4G43k
+2025-06-27 12:53:24,463 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:53:25,052 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:53:31,093 - app - INFO - Logger initialized.
+2025-06-27 12:53:31,096 - app - INFO - .env file loaded: True
+2025-06-27 12:53:31,096 - app - DEBUG - DEBUG: Raw value from os.getenv('ACCESS_TOKEN_EXPIRE_MINUTES'): '10'
+2025-06-27 12:53:31,097 - app - INFO - Creating FastAPI app
+2025-06-27 12:53:31,098 - app - INFO - SessionMiddleware added.
+2025-06-27 12:53:31,593 - app - INFO - MongoDB connection established and collections initialized.
+2025-06-27 12:53:37,886 - app - INFO - Root endpoint accessed, redirecting to /login.
+2025-06-27 12:53:37,897 - app - INFO - Login page requested.
+2025-06-27 12:53:38,017 - app - ERROR - HTTP Exception caught: 404 - Not Found
+2025-06-27 12:53:40,105 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA5NDgwfQ.bVuPY_uwZnEAPKNsecmDbFW7cK9_4Vtph2L5ZI4G43k
+2025-06-27 12:53:41,376 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:53:41,582 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:53:42,491 - app - INFO - Login attempt for username: vaishu@gmail.com
+2025-06-27 12:53:43,031 - app - INFO - Login successful for vaishu@gmail.com with role admin.
+2025-06-27 12:53:43,039 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA5NjIyfQ.k79bf1FMMN149RHc9BE8QQJDlFXxnbsczoJcQV2cV68
+2025-06-27 12:53:43,075 - app - INFO - Admin dashboard requested by vaishu@gmail.com.
+2025-06-27 12:53:44,914 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA5NjIyfQ.k79bf1FMMN149RHc9BE8QQJDlFXxnbsczoJcQV2cV68
+2025-06-27 12:53:44,958 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:53:45,039 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:53:56,682 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA5NjIyfQ.k79bf1FMMN149RHc9BE8QQJDlFXxnbsczoJcQV2cV68
+2025-06-27 12:53:57,054 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:53:57,211 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:54:00,131 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA5NjIyfQ.k79bf1FMMN149RHc9BE8QQJDlFXxnbsczoJcQV2cV68
+2025-06-27 12:54:00,327 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:54:00,687 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:54:12,271 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA5NjIyfQ.k79bf1FMMN149RHc9BE8QQJDlFXxnbsczoJcQV2cV68
+2025-06-27 12:54:12,321 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:54:13,052 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:54:15,738 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA5NjIyfQ.k79bf1FMMN149RHc9BE8QQJDlFXxnbsczoJcQV2cV68
+2025-06-27 12:54:16,056 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:54:16,320 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:54:28,117 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA5NjIyfQ.k79bf1FMMN149RHc9BE8QQJDlFXxnbsczoJcQV2cV68
+2025-06-27 12:54:28,479 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:54:29,311 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:54:31,365 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA5NjIyfQ.k79bf1FMMN149RHc9BE8QQJDlFXxnbsczoJcQV2cV68
+2025-06-27 12:54:31,865 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:54:32,307 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:54:44,375 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA5NjIyfQ.k79bf1FMMN149RHc9BE8QQJDlFXxnbsczoJcQV2cV68
+2025-06-27 12:54:44,416 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:54:44,488 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:54:47,350 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA5NjIyfQ.k79bf1FMMN149RHc9BE8QQJDlFXxnbsczoJcQV2cV68
+2025-06-27 12:54:47,533 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:54:47,844 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:54:59,550 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA5NjIyfQ.k79bf1FMMN149RHc9BE8QQJDlFXxnbsczoJcQV2cV68
+2025-06-27 12:54:59,923 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:55:00,398 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:55:02,889 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA5NjIyfQ.k79bf1FMMN149RHc9BE8QQJDlFXxnbsczoJcQV2cV68
+2025-06-27 12:55:03,395 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:55:04,167 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:55:15,454 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA5NjIyfQ.k79bf1FMMN149RHc9BE8QQJDlFXxnbsczoJcQV2cV68
+2025-06-27 12:55:15,670 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:55:16,108 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:55:19,220 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA5NjIyfQ.k79bf1FMMN149RHc9BE8QQJDlFXxnbsczoJcQV2cV68
+2025-06-27 12:55:19,262 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:55:19,994 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:55:28,368 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA5NjIyfQ.k79bf1FMMN149RHc9BE8QQJDlFXxnbsczoJcQV2cV68
+2025-06-27 12:55:28,516 - app - INFO - Edit shipment page requested by vaishu@gmail.com.
+2025-06-27 12:55:31,167 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA5NjIyfQ.k79bf1FMMN149RHc9BE8QQJDlFXxnbsczoJcQV2cV68
+2025-06-27 12:55:31,206 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:55:31,279 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:55:32,667 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA5NjIyfQ.k79bf1FMMN149RHc9BE8QQJDlFXxnbsczoJcQV2cV68
+2025-06-27 12:55:33,090 - app - INFO - User management page requested by vaishu@gmail.com.
+2025-06-27 12:55:46,355 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA5NjIyfQ.k79bf1FMMN149RHc9BE8QQJDlFXxnbsczoJcQV2cV68
+2025-06-27 12:55:46,571 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:55:46,768 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:56:01,811 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA5NjIyfQ.k79bf1FMMN149RHc9BE8QQJDlFXxnbsczoJcQV2cV68
+2025-06-27 12:56:02,222 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:56:02,678 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 12:56:17,753 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDA5NjIyfQ.k79bf1FMMN149RHc9BE8QQJDlFXxnbsczoJcQV2cV68
+2025-06-27 12:56:17,804 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 12:56:18,345 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:06:45,327 - app - INFO - Logger initialized.
+2025-06-27 13:06:45,329 - app - INFO - .env file loaded: True
+2025-06-27 13:06:45,330 - app - DEBUG - DEBUG: Raw value from os.getenv('ACCESS_TOKEN_EXPIRE_MINUTES'): '10'
+2025-06-27 13:06:45,330 - app - INFO - Creating FastAPI app
+2025-06-27 13:06:45,332 - app - INFO - SessionMiddleware added.
+2025-06-27 13:06:45,873 - app - INFO - MongoDB connection established and collections initialized.
+2025-06-27 13:06:55,167 - app - INFO - Root endpoint accessed, redirecting to /login.
+2025-06-27 13:06:55,277 - app - INFO - Login page requested.
+2025-06-27 13:06:55,391 - app - INFO - Root endpoint accessed, redirecting to /login.
+2025-06-27 13:06:55,477 - app - INFO - Root endpoint accessed, redirecting to /login.
+2025-06-27 13:06:55,482 - app - INFO - Login page requested.
+2025-06-27 13:06:55,488 - app - INFO - Login page requested.
+2025-06-27 13:06:55,930 - app - ERROR - HTTP Exception caught: 404 - Not Found
+2025-06-27 13:06:56,165 - app - ERROR - HTTP Exception caught: 404 - Not Found
+2025-06-27 13:06:56,177 - app - ERROR - HTTP Exception caught: 404 - Not Found
+2025-06-27 13:06:56,637 - app - ERROR - HTTP Exception caught: 404 - Not Found
+2025-06-27 13:07:01,538 - app - INFO - Login attempt for username: vaishu@gmail.com
+2025-06-27 13:07:04,718 - app - INFO - Login successful for vaishu@gmail.com with role admin.
+2025-06-27 13:07:04,728 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDI0fQ.day2V57Y3VE51uizCFKE_hLsrUrU6kRzSYDEidjn8Hw
+2025-06-27 13:07:05,439 - app - INFO - Admin dashboard requested by vaishu@gmail.com.
+2025-06-27 13:07:07,616 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDI0fQ.day2V57Y3VE51uizCFKE_hLsrUrU6kRzSYDEidjn8Hw
+2025-06-27 13:07:07,749 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:07:07,843 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:07:22,992 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDI0fQ.day2V57Y3VE51uizCFKE_hLsrUrU6kRzSYDEidjn8Hw
+2025-06-27 13:07:24,310 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:07:24,928 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:07:39,973 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDI0fQ.day2V57Y3VE51uizCFKE_hLsrUrU6kRzSYDEidjn8Hw
+2025-06-27 13:07:40,371 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:07:40,968 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:07:49,544 - app - INFO - Root endpoint accessed, redirecting to /login.
+2025-06-27 13:07:49,563 - app - INFO - Login page requested.
+2025-06-27 13:07:49,694 - app - ERROR - HTTP Exception caught: 404 - Not Found
+2025-06-27 13:07:56,099 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDI0fQ.day2V57Y3VE51uizCFKE_hLsrUrU6kRzSYDEidjn8Hw
+2025-06-27 13:07:56,425 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:07:56,625 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:07:59,335 - app - INFO - Login attempt for username: vaishu@gmail.com
+2025-06-27 13:08:00,358 - app - INFO - Login successful for vaishu@gmail.com with role admin.
+2025-06-27 13:08:00,368 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:08:00,448 - app - INFO - Admin dashboard requested by vaishu@gmail.com.
+2025-06-27 13:08:06,190 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:08:06,572 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:08:07,123 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:08:11,719 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:08:12,303 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:08:12,932 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:08:22,241 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:08:22,540 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:08:23,100 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:08:28,005 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:08:28,233 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:08:28,781 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:08:38,180 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:08:38,526 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:08:38,792 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:08:43,851 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:08:44,095 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:08:44,685 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:08:53,844 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:08:54,229 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:08:54,805 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:08:59,755 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:09:00,335 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:09:00,739 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:09:09,868 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:09:10,064 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:09:10,607 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:09:15,801 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:09:16,314 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:09:16,871 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:09:25,656 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:09:26,237 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:09:26,813 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:09:31,941 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:09:32,284 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:09:32,858 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:09:41,861 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:09:42,220 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:09:42,910 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:09:47,921 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:09:48,261 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:09:48,708 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:09:57,968 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:09:58,255 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:09:58,801 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:10:03,787 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:10:04,332 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:10:05,469 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:10:13,865 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:10:14,162 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:10:15,023 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:10:20,522 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:10:21,044 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:10:21,439 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:10:30,068 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:10:30,448 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:10:31,208 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:10:36,484 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:10:36,895 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:10:37,094 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:10:46,263 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:10:46,630 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:10:46,873 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:10:52,143 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:10:52,562 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:10:53,185 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:11:01,931 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:11:02,297 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:11:02,809 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:11:08,232 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:11:08,748 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:11:09,361 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:11:17,912 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:11:18,368 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:11:19,247 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:11:24,441 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:11:24,922 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:11:25,265 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:11:34,308 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:11:34,860 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:11:35,476 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:11:40,335 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:11:40,793 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:11:41,512 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:11:50,566 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:11:51,141 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:11:51,352 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:11:56,597 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:11:57,080 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:11:57,379 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:12:06,434 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:12:06,819 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:12:07,324 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:12:12,462 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:12:12,512 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:12:12,631 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:12:22,384 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:12:22,925 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:12:23,700 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:12:27,739 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:12:28,336 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:12:28,927 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:12:38,763 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:12:39,270 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:12:40,187 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:12:43,988 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:12:44,495 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:12:45,512 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:12:55,237 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:12:55,271 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:12:55,339 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:13:00,571 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:13:00,609 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:13:01,279 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:13:10,388 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:13:10,555 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:13:10,646 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:13:16,379 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:13:16,751 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:13:17,309 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:13:25,710 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:13:26,268 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:13:26,990 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:13:32,369 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:13:32,469 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:13:33,338 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:13:42,071 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:13:42,550 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:13:43,762 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:13:48,392 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:13:49,616 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:13:49,977 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:13:58,826 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:13:59,042 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:13:59,656 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:14:05,044 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:14:05,096 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:14:05,801 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:14:14,711 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:14:15,324 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:14:16,240 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:14:20,865 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:14:20,997 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:14:21,109 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:14:31,304 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:14:31,814 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:14:32,470 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:14:36,199 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:14:36,728 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:14:37,297 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:14:47,532 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:14:47,584 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:14:48,402 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:14:52,368 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:14:52,705 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:14:53,412 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:15:03,465 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:15:03,766 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:15:04,109 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:15:08,486 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:15:09,128 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:15:10,121 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:15:19,164 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:15:19,628 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:15:20,446 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:15:25,175 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:15:25,771 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:15:26,597 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:15:35,498 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:15:35,562 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:15:36,069 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:15:41,678 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:15:41,949 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:15:42,274 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:15:51,144 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:15:51,474 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:15:51,572 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:15:57,330 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:15:57,729 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:15:58,317 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:16:06,628 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:16:06,944 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:16:07,391 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:16:13,374 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:16:13,486 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:16:13,989 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:16:22,461 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:16:22,722 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:16:23,526 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:16:30,098 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:16:30,464 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:16:30,701 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:16:38,584 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:16:39,162 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:16:39,291 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:16:45,776 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:16:46,249 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:16:46,622 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:16:54,344 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:16:54,378 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:16:54,447 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:17:01,696 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:17:02,011 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:17:02,124 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:17:09,517 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:17:10,731 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:17:10,808 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:17:19,404 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:17:20,012 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:17:20,223 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:17:25,908 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:17:25,993 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:17:26,126 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:17:35,304 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:17:36,419 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:17:36,691 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:17:41,281 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:17:41,373 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:17:41,518 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:17:51,740 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:17:51,804 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:17:51,947 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:17:56,589 - app - DEBUG - JWT token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YWlzaHVAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzUxMDEwNDgwfQ.qgRBqwDPKD_UWZ4a7BlcQ3bT6y6xmWP_B-63A04573U
+2025-06-27 13:17:56,659 - app - INFO - Device data page requested by vaishu@gmail.com.
+2025-06-27 13:17:57,020 - app - INFO - Fetched records for Device ID: all (latest)
+2025-06-27 13:18:07,021 - app - DEBUG - JWT token from cookie: None
+2025-06-27 13:18:07,021 - app - ERROR - JWT token not found in cookie or header.
+2025-06-27 13:18:07,022 - app - ERROR - HTTP Exception caught: 401 - Not authenticated
+2025-06-27 13:18:12,096 - app - DEBUG - JWT token from cookie: None
+2025-06-27 13:18:12,097 - app - ERROR - JWT token not found in cookie or header.
+2025-06-27 13:18:12,097 - app - ERROR - HTTP Exception caught: 401 - Not authenticated
+2025-06-27 13:21:28,768 - app - INFO - Logger initialized.
+2025-06-27 13:21:28,770 - app - INFO - .env file loaded: True
+2025-06-27 13:21:28,771 - app - DEBUG - DEBUG: Raw value from os.getenv('ACCESS_TOKEN_EXPIRE_MINUTES'): '10'
+2025-06-27 13:21:28,772 - app - INFO - Creating FastAPI app
+2025-06-27 13:21:28,774 - app - INFO - SessionMiddleware added.
+2025-06-27 13:21:30,127 - app - INFO - MongoDB connection established and collections initialized.
