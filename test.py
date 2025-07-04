@@ -1,3 +1,6 @@
+
+
+
 from pymongo import MongoClient
 
 # Replace with your MongoDB URI
